@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-container {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-click {
+  width: 100px;
+  text-align: center;
+  border: none;
+}
+
+.button-click:hover {
+  background-color: #249f66;
+  color: aliceblue;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.item-li {
+  width: 100%;
+  height: 100%a;
+  text-align: center;
+}
+
+.delete-button {
+  background-color: azure;
+}
+
+.delete-button:hover {
+  background-color: red;
+  color: aliceblue;
+}
